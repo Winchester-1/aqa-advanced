@@ -1,0 +1,23 @@
+{
+  "name": "aqa-advanced",
+  "version": "1.0.0",
+  "description": "JS Into",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Winchester-1/aqa-advanced.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Winchester-1/aqa-advanced/issues"
+  },
+  "homepage": "https://github.com/Winchester-1/aqa-advanced#readme",
+  "dependencies": {
+    "chalk": "^5.6.2"
+  }
+}
