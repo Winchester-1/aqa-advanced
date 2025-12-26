@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "format": "prettier --write \"**/*.{ts,js,json,md}\"",
     "format:check": "prettier --check \"**/*.{ts,js,json,md}\"",
     "lint": "eslint . --ext .ts,.js",
@@ -23,11 +23,13 @@
   },
   "homepage": "https://github.com/Winchester-1/aqa-advanced#readme",
   "dependencies": {
+    "axios": "^1.13.2",
     "chalk": "^5.6.2"
   },
   "devDependencies": {
     "eslint": "^9.39.2",
     "husky": "^9.1.7",
+    "jest": "^30.2.0",
     "lint-staged": "^16.2.7",
     "prettier": "^3.7.4"
   }
